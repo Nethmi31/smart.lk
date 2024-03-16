@@ -13,8 +13,11 @@ html,body{
     position: sticky;
     top: 0;
     text-align:center;
-    color: #03e8fc;
-    background-color: #333;
+    /* color: #03e8fc; */
+    color:  #333;
+    /* background-color: #333; */
+    /* background-color:	#66545e; */
+    background-color: #6C5F5B;
   
 }
 
@@ -23,10 +26,12 @@ html,body{
     font-size: 3rem;
     padding-bottom:0.4rem;
     font-family:Times New Roman;
-     background-color: #06032e;
-     font-weight: 900;
-     letter-spacing: 1rem;
-     text-transform:uppercase;
+    /* background-color: #06032e; */
+    /* background-color: #66545e; */
+    background-color: #6C5F5B;
+    font-weight: 900;
+    letter-spacing: 1rem;
+    text-transform:uppercase;
 }
 
 .carousel{
