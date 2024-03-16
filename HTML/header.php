@@ -14,7 +14,7 @@
       <div class="container-fixed desc1-header fixed-top">
          <div class="top-header">
             <div class="top-title">
-               <p>ZARA.LK</p>
+               <p>SMART.LK</p>
             </div>
          </div>
          <div class="col-sm-12 nav-top" id="header_second">

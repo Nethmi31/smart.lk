@@ -20,7 +20,7 @@
       <div class="container">
          <div class="row">
             <?php
-               $conn=mysqli_connect("localhost","root","","zara");
+               $conn=mysqli_connect("localhost","root","1234","zara");
                $sql="SELECT * FROM product WHERE category='53'";
                $result=mysqli_query($conn,$sql);
                

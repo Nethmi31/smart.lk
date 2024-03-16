@@ -11,13 +11,16 @@
    </div>
    <div class="carousel-inner">
       <div class="carousel-item active">
-         <img src="../PHOTO/slider/three.jpg" class="d-block w-100" alt="...">
+           <!-- <img src="../PHOTO/slider/three.jpg" class="d-block w-100" alt="..."> -->
+         <img src="../PHOTO/slider/1.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-         <img src="../PHOTO/slider/one.jpg" class="d-block w-100" alt="...">
+         <!-- <img src="../PHOTO/slider/one.jpg" class="d-block w-100" alt="..."> -->
+         <img src="../PHOTO/slider/two.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-         <img src="../PHOTO/slider/two.jpg" class="d-block w-100" alt="...">
+         <img src="../PHOTO/slider/three.png" class="d-block w-100" alt="...">
+         <!-- <img src="../PHOTO/slider/access.png" class="d-block w-100" alt="..."> -->
       </div>
    </div>
    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -33,15 +36,15 @@
 <div class="container desc1-section">
    <div class="row">
       <div class="col-md-4 desc1-col" id="discription_one">
-         <img src="../PHOTO/discription/one.jpg">
+         <img src="../PHOTO/discription/1.jpg">
          <p id="dis_con">Get 'dolled up in a stylish floral dress with an elegant flare. Sobeſhhades ideal for daytime and the perkier textures to shine when the sun is not.<br><a style="text-decoration:none;" href="mini_dress.php"> SHOP NOW </a></p>
       </div>
       <div class="col-md-4 desc1-col" id="discription_one">
          <p id="dis_con">Get 'dolled up in a stylish floral dress with an elegant flare. Sobeſhhades ideal for daytime and the perkier textures to shine when the sun is not. <br><a style="text-decoration:none;" href="mini_dress.php"> SHOP NOW </a></p>
-         <img src="../PHOTO/discription/two.jpg">
+         <img src="../PHOTO/discription/2.jpg">
       </div>
       <div class="col-md-4 desc1-col" id="discription_one">
-         <img src="../PHOTO/discription/three.jpg">
+         <img src="../PHOTO/discription/1one.jpg">
          <p id="dis_con">Get 'dolled up in a stylish floral dress with an elegant flare. Sobeſhhades ideal for daytime and the perkier textures to shine when the sun is not. <br><a style="text-decoration:none;" href="mini_dress.php"> SHOP NOW </a></p>
       </div>
    </div>
@@ -54,7 +57,7 @@
 <div class="container">
    <div class="row">
       <?php
-         $conn=mysqli_connect("localhost","root","","zara");
+         $conn=mysqli_connect("localhost","root","1234","zara");
          $sql="SELECT * FROM product WHERE category='53' ORDER BY id DESC";
          $result=mysqli_query($conn,$sql);
          
